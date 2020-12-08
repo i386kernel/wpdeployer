@@ -1,0 +1,10 @@
+sourceURL: http://192.168.8.127:32331
+destURL: http://169.38.102.148:32331
+dbURL: 192.168.13.30
+dbUsername: root
+dbPassword: password
+dbName: wordpress
+sshKey:
+openShiftURL:
+namespace:
+servicePort:
