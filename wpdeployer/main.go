@@ -45,8 +45,7 @@ var PRMysqlDirName = "mysql-"+projectname+"-PR"
 var DRWPdirname = projectname+"-DR"
 var DRMysqlDirName = "mysql-"+projectname+"-DR"
 
-//var inidir = "/etc/wpdeployer/deployprop.ini"
-var inidir = "C:\\Users\\LakshyaNanjangud\\go\\src\\github.com\\i386kernel\\GoExper\\Work-Load-Automation\\wpdeployer\\clouddeploy.ini"
+var inidir = "/etc/wpdeployer/deployprop.ini"
 
 var deployprops = wpprops{}
 
