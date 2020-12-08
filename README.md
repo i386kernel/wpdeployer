@@ -1,7 +1,7 @@
 # Wordpress Auto Deploy
 ## This repo contains utilities to auto-deploy wordpress and enable resiliency.
 
-[Medium Link](https://medium.com/p/ba6f0fe15aa7/)
+###[Medium Link](https://i386kernel.medium.com/how-to-make-cloud-native-work-loads-truly-resilient-to-disasters-ba6f0fe15aa7)
 
 ### Running wphelper service
 ```sh
