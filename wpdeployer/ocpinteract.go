@@ -410,10 +410,10 @@ func (o *Openshift)createPersistantVolume() {
     ],
     "nfs": {
       "path": "/mnt/%s",
-      "server": "192.168.8.61"
+      "server": "%s"
     }
   }
-}`, o.Workloadname, o.Workloadname, o.DIRName)
+}`, o.Workloadname, o.Workloadname, o.DIRName, NFS_IP)
 	status, _ := ocpinteract(o.URL, persistantVolume, o.Token, jsonstr)
 	fmt.Printf("---PV Status: %d---\n", status)
 }

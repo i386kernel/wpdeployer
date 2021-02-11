@@ -49,12 +49,15 @@ var inidir = "/etc/wpdeployer/deployprop.ini"
 
 var deployprops = wpprops{}
 
+var NFS_IP string
+
 func init(){
 	cfg, err := ini.Load(inidir)
 	if err != nil {
 		fmt.Println(err)
 		os.Exit(1)
 	}
+	NFS_IP = cfg.Section("NFS").Key("ipaddr").String()
 	deployprops.NFSIPaddr = cfg.Section("NFS").Key("ipaddr").String()+":"+"22"
 	deployprops.NFSUsername = cfg.Section("NFS").Key("username").String()
 	deployprops.NFSPassword = cfg.Section("NFS").Key("password").String()
