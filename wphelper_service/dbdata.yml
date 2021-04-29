@@ -1,6 +1,6 @@
-sourceURL: http://192.168.8.127:32331
-destURL: http://169.38.102.148:32331
+sourceURL: <wp source url>
+destURL: <wp dest url>
 dbURL: 127.0.0.1
 dbUsername: root
-dbPassword: password
+dbPassword: <pwd>
 dbName: wordpress
